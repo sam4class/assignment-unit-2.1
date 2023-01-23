@@ -14,6 +14,7 @@ console.log(fullName);
 
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 let luckyNumber = 13;
+console.log("My lucky number is",luckyNumber);
 
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
@@ -25,15 +26,19 @@ let adventurous = true;
 
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 let food = "Hot Cheetos";
+console.log("Greek yogurt and", food, "is the best thing ever");
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 let pets = 1;
+console.log("I only have",pets,"cat.");
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 2;
+console.log("My friend has", friendsPets);
 
 // 11 - Add two pets to your `pets` variable
 pets += 2;
+console.log("I now have more cats", pets);
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 2;
