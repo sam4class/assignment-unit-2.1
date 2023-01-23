@@ -30,7 +30,7 @@ let food = "Hot Cheetos";
 let pets = 1;
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-let friendsPets = 3;
+let friendsPets = 2;
 
 // 11 - Add two pets to your `pets` variable
 pets += 2;
@@ -81,6 +81,22 @@ console.log(mostPets);
 //      "Third is the one with the polka dot dress" if your lucky number is 3
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
+
+let num = luckyNumber;
+    switch(num){
+        case 1:
+            console.log("First is the worst");
+            break;
+        case 2:
+            console.log("Second is the best");
+            break;
+        case 3:
+            console.log("Third is the one with the polka dot dress");
+            break;
+        default:
+            console.log("Luck is what happens when preparation meets opportunity");
+            break;
+    }
 
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
