@@ -1,9 +1,11 @@
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 let firstName = "Samantha";
+console.log(firstName);
 
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
 let lastName = "Marlowe";
+console.log(lastName);
 
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
@@ -23,6 +25,7 @@ console.log("My name is", fullName, "and I think", luckyNumber, "is a winner!")
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 let adventurous = true;
+console.log(adventurous);
 
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 let food = "Hot Cheetos";
@@ -38,10 +41,11 @@ console.log("My friend has", friendsPets);
 
 // 11 - Add two pets to your `pets` variable
 pets += 2;
-console.log("I now have more cats", pets);
+console.log("I now have more cats,", pets);
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 2;
+console.log("Only",2,"pets allowed.");
 
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
